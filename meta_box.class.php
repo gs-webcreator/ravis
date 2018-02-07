@@ -607,7 +607,7 @@
 												</label>
 			                            	</div>
 			                            	<div class="input-box title-box"><input type="text" name="' . esc_attr( $field['id'] ) . '[items][' . esc_attr( $i ) . '][title]" value="' . esc_attr( $row['title'] ) . '" placeholder="' . esc_html__( 'Title', 'ravis-booking' ) . '" /></div>
-			                            	<div class="input-box price-box"><input type="number" name="' . esc_attr( $field['id'] ) . '[items][' . esc_attr( $i ) . '][price]" step="any" value="' . esc_attr( $row['price'] ) . '" placeholder="' . esc_html__( 'Price (number only)', 'ravis-booking' ) . '" /></div>
+			                            	<div class="input-box price-box"><input type="number" name="' . esc_attr( $field['id'] ) . '[items][' . esc_attr( $i ) . '][price]" value="' . esc_attr( $row['price'] ) . '" placeholder="' . esc_html__( 'Price (number only)', 'ravis-booking' ) . '" /></div>
 			                            </div>
 			                            <a class="repeatable-remove delete" href="#"><i class="dashicons dashicons-no"></i></a>
 			                        </li>
